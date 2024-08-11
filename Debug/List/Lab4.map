@@ -1,0 +1,370 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  03/Jan/2024  00:33:52
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =  D:\Embedded Labs\Project WESS\Debug\Exe\Lab4.out
+#    Map file     =  D:\Embedded Labs\Project WESS\Debug\List\Lab4.map
+#    Command line =
+#        -f "D:\Embedded Labs\Project WESS\Debug\Exe\Lab4.out.rsp"
+#        ("D:\Embedded Labs\Project WESS\Debug\Obj\Bluetooth.o" "D:\Embedded
+#        Labs\Project WESS\Debug\Obj\DIO.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\Laser.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\LCD.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\Magnetic.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\main.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\Smoke.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\startup_ewarm.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\Systick.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\Timer.o" "D:\Embedded Labs\Project
+#        WESS\Debug\Obj\Ultrasonic.o" --no_out_extension -o "D:\Embedded
+#        Labs\Project WESS\Debug\Exe\Lab4.out" --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        "D:\Embedded Labs\Project WESS\Debug\List\Lab4.map" --config
+#        D:\arm\config\linker\TexasInstruments\TM4C123FH6.icf --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+do not initialize { rw section .noinit };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x26c
+  .intvec            const            0x0   0x26c  startup_ewarm.o [1]
+                                  - 0x26c   0x26c
+
+"P1":                                      0x2524
+  .text              ro code        0x26c   0xf16  xprintffull_nomb.o [2]
+  .text              ro code       0x1182    0x3a  packbits_init_single.o [4]
+  .text              ro code       0x11bc    0x16  strchr.o [4]
+  .text              ro code       0x11d2     0xa  xsprout.o [2]
+  .text              ro code       0x11dc    0x40  xfail_s.o [2]
+  .text              ro code       0x121c    0x36  strlen.o [4]
+  .text              ro code       0x1254    0x58  memchr.o [4]
+  .text              ro code       0x12ac    0x76  ABImemcpy_unaligned.o [4]
+  .text              ro code       0x1324    0x70  frexp.o [3]
+  .text              ro code       0x1394    0x34  DblCmpLe.o [3]
+  .text              ro code       0x13c8    0x34  DblCmpGe.o [3]
+  .text              ro code       0x13fc   0x13a  ldexp.o [3]
+  .text              ro code       0x1538    0x36  DblToS32.o [3]
+  .text              ro code       0x1570    0x22  S32ToDbl.o [3]
+  .text              ro code       0x1594   0x24e  DblAddSub.o [3]
+  .text              ro code       0x17e4   0x246  DblDiv.o [3]
+  .text              ro code       0x1a2c    0x22  DblToU32.o [3]
+  .text              ro code       0x1a50    0x1c  U32ToDbl.o [3]
+  .text              ro code       0x1a6c   0x1aa  DblMul.o [3]
+  .text              ro code       0x1c18   0x230  I64DivMod.o [4]
+  .text              ro code       0x1e48     0x6  abort.o [2]
+  .text              ro code       0x1e50     0x2  I64DivZer.o [4]
+  .text              ro code       0x1e54    0x14  exit.o [5]
+  .text              ro code       0x1e68    0x7c  iarttio.o [5]
+  .text              ro code       0x1ee4     0x8  XShttio.o [2]
+  .text              ro code       0x1eec   0x21c  Ultrasonic.o [1]
+  .text              ro code       0x2108    0x30  DIO.o [1]
+  .text              ro code       0x2138    0x28  printf.o [2]
+  .text              ro code       0x2160    0x44  Systick.o [1]
+  .text              ro code       0x21a4   0x10c  main.o [1]
+  .text              ro code       0x22b0    0xbe  Bluetooth.o [1]
+  .text              ro code       0x2370    0x4c  Laser.o [1]
+  .text              ro code       0x23bc    0xd0  Magnetic.o [1]
+  .text              ro code       0x248c   0x104  Smoke.o [1]
+  .text              ro code       0x2590    0x40  sprintf.o [2]
+  .text              ro code       0x25d0    0x28  data_init.o [4]
+  .text              ro code       0x25f8    0x22  fpinit_M.o [3]
+  .text              ro code       0x261a    0x22  iarwrite.o [5]
+  .iar.init_table    const         0x263c    0x10  - Linker created -
+  .text              ro code       0x264c    0x20  putchar.o [2]
+  .text              ro code       0x266c    0x10  write.o [5]
+  .text              ro code       0x267c    0x1e  dwrite.o [5]
+  .text              ro code       0x269a    0x20  iarwstd.o [5]
+  .text              ro code       0x26bc    0x1e  cmain.o [4]
+  .text              ro code       0x26da     0x4  low_level_init.o [2]
+  .text              ro code       0x26de     0x4  exit.o [2]
+  .text              ro code       0x26e4     0xa  cexit.o [4]
+  .text              ro code       0x26f0    0x1c  cstartup_M.o [4]
+  .text              ro code       0x270c    0x16  xprout.o [2]
+  .rodata            const         0x2724    0x14  main.o [1]
+  .rodata            const         0x2738    0x14  main.o [1]
+  .rodata            const         0x274c    0x14  main.o [1]
+  .rodata            const         0x2760    0x10  main.o [1]
+  .text              ro code       0x2770     0xe  startup_ewarm.o [1]
+  .rodata            const         0x2780     0xc  main.o [1]
+  .rodata            const         0x278c     0x0  packbits_init_single.o [4]
+  Initializer bytes  const         0x278c     0x4  <for P2-1>
+                                 - 0x2790  0x2524
+
+"P2", part 1 of 2:                           0x2c
+  P2-1                        0x2000'0000    0x2c  <Init block>
+    .data            inited   0x2000'0000     0x8  XShttio.o [2]
+    .bss             inited   0x2000'0008     0x4  main.o [1]
+    .bss             inited   0x2000'000c     0x4  main.o [1]
+    .bss             inited   0x2000'0010    0x14  main.o [1]
+    .bss             inited   0x2000'0024     0x4  main.o [1]
+    .bss             inited   0x2000'0028     0x4  xfail_s.o [2]
+                            - 0x2000'002c    0x2c
+
+"P2", part 2 of 2:                          0x400
+  .noinit            uninit   0x2000'002c   0x400  startup_ewarm.o [1]
+                            - 0x2000'042c   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x2790     0x3'ffff  0x3'd870
+  0x2000'042c  0x2000'7fff    0x7bd4
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x4 (9% of destination):
+               0x278c   0x4
+    1 destination range, total size 0x2c:
+          0x2000'0000  0x2c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+D:\Embedded Labs\Project WESS\Debug\Obj: [1]
+    Bluetooth.o                 190
+    DIO.o                        48
+    Laser.o                      76
+    Magnetic.o                  208
+    Smoke.o                     260
+    Systick.o                    68
+    Ultrasonic.o                540
+    main.o                      268       91       32
+    startup_ewarm.o              14      620    1'024
+    -------------------------------------------------
+    Total:                    1'672      711    1'056
+
+dl7M_tln.a: [2]
+    XShttio.o                     8                 8
+    abort.o                       6
+    exit.o                        4
+    low_level_init.o              4
+    printf.o                     40
+    putchar.o                    32
+    sprintf.o                    64
+    xfail_s.o                    64        1        4
+    xprintffull_nomb.o        3'862
+    xprout.o                     22
+    xsprout.o                    10
+    -------------------------------------------------
+    Total:                    4'116        1       12
+
+m7M_tls.a: [3]
+    DblAddSub.o                 590
+    DblCmpGe.o                   52
+    DblCmpLe.o                   52
+    DblDiv.o                    582
+    DblMul.o                    426
+    DblToS32.o                   54
+    DblToU32.o                   34
+    S32ToDbl.o                   34
+    U32ToDbl.o                   28
+    fpinit_M.o                   34
+    frexp.o                     112
+    ldexp.o                     314
+    -------------------------------------------------
+    Total:                    2'312
+
+rt7M_tl.a: [4]
+    ABImemcpy_unaligned.o       118
+    I64DivMod.o                 560
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    memchr.o                     88
+    packbits_init_single.o       58
+    strchr.o                     22
+    strlen.o                     54
+    -------------------------------------------------
+    Total:                    1'010
+
+shb_l.a: [5]
+    dwrite.o                     30
+    exit.o                       20
+    iarttio.o                   124
+    iarwrite.o                   34
+    iarwstd.o                    32
+    write.o                      16
+    -------------------------------------------------
+    Total:                      256
+
+    Gaps                         30        4
+    Linker created                        16
+-----------------------------------------------------
+    Grand Total:              9'396      732    1'068
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x263c          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x264c          --   Gb  - Linker created -
+?main                        0x26bd         Code  Gb  cmain.o [4]
+Bluetooth_Write              0x2313   0x12  Code  Gb  Bluetooth.o [1]
+Bluetooth_Write_String       0x2359   0x16  Code  Gb  Bluetooth.o [1]
+DIO_ReadPin                  0x212d    0xc  Code  Gb  DIO.o [1]
+DIO_WritePin                 0x2109   0x24  Code  Gb  DIO.o [1]
+Delay                        0x205b   0x16  Code  Gb  Ultrasonic.o [1]
+Delay_MicroSecond            0x1ff3   0x50  Code  Gb  Ultrasonic.o [1]
+Detect_Magnet                0x241d   0x36  Code  Gb  Magnetic.o [1]
+Detect_Motion                0x2071   0x36  Code  Gb  Ultrasonic.o [1]
+Detect_Smoke                 0x2525   0x36  Code  Gb  Smoke.o [1]
+FaultISR                     0x277b    0x2  Code  Lc  startup_ewarm.o [1]
+HC05_init                    0x22b1   0x62  Code  Gb  Bluetooth.o [1]
+IntDefaultHandler            0x277d    0x2  Code  Lc  startup_ewarm.o [1]
+Laser_Init                   0x2371   0x4c  Code  Gb  Laser.o [1]
+Magnetic_Init                0x23bd   0x60  Code  Gb  Magnetic.o [1]
+Measure_distance             0x1eed   0x5c  Code  Gb  Ultrasonic.o [1]
+NmiSR                        0x2779    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base          0x263c          --   Gb  - Linker created -
+Region$$Table$$Limit         0x264c          --   Gb  - Linker created -
+ResetISR                     0x2771    0x8  Code  Gb  startup_ewarm.o [1]
+Smoke_init                   0x248d   0x98  Code  Gb  Smoke.o [1]
+SysTickEnable                0x2161    0x8  Code  Gb  Systick.o [1]
+SysTickPeriodSet             0x2169   0x1c  Code  Gb  Systick.o [1]
+SysTick_Is_Time_out          0x2185   0x10  Code  Gb  Systick.o [1]
+Timer0ACapture_init          0x1f49   0xaa  Code  Gb  Ultrasonic.o [1]
+_LitobFullNoMb                0xf89  0x10c  Code  Lc  xprintffull_nomb.o [2]
+_PrintfFullNoMb               0x26d  0xcec  Code  Gb  xprintffull_nomb.o [2]
+_Prout                       0x270d   0x16  Code  Gb  xprout.o [2]
+_PutcharFullNoMb             0x10ed   0x20  Code  Lc  xprintffull_nomb.o [2]
+_PutcharsFullNoMb            0x110d   0x2e  Code  Lc  xprintffull_nomb.o [2]
+_SProut                      0x11d3    0xa  Code  Gb  xsprout.o [2]
+__aeabi_cdcmple              0x1395         Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple             0x13c9         Code  Gb  DblCmpGe.o [3]
+__aeabi_d2iz                 0x1539         Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz                0x1a2d         Code  Gb  DblToU32.o [3]
+__aeabi_ddiv                 0x17e5         Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x1a6d         Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0x1701         Code  Gb  DblAddSub.o [3]
+__aeabi_i2d                  0x1571         Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0                0x1e51         Code  Gb  I64DivZer.o [4]
+__aeabi_ui2d                 0x1a51         Code  Gb  U32ToDbl.o [3]
+__aeabi_uldivmod             0x1c19         Code  Gb  I64DivMod.o [4]
+__cmain                      0x26bd         Code  Gb  cmain.o [4]
+__dwrite                     0x267d   0x1e  Code  Gb  dwrite.o [5]
+__exit                       0x1e55   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s                 0x11dd   0x1c  Code  Gb  xfail_s.o [2]
+__iar_Memchr                 0x1255         Code  Gb  memchr.o [4]
+__iar_Strchr                 0x11bd         Code  Gb  strchr.o [4]
+__iar_close_ttio             0x1e69   0x2c  Code  Gb  iarttio.o [5]
+__iar_data_init3             0x25d1   0x28  Code  Gb  data_init.o [4]
+__iar_frexp                  0x1331         Code  Gb  frexp.o [3]
+__iar_frexpl                 0x1331         Code  Gb  frexp.o [3]
+__iar_get_ttio               0x1e95   0x4c  Code  Gb  iarttio.o [5]
+__iar_init_vfp               0x25f9         Code  Gb  fpinit_M.o [3]
+__iar_ldexp64                0x13fd         Code  Gb  ldexp.o [3]
+__iar_lookup_ttioh           0x1ee5    0x8  Code  Gb  XShttio.o [2]
+__iar_packbits_init_single3
+                             0x1183   0x3a  Code  Gb  packbits_init_single.o [4]
+__iar_program_start          0x26f1         Code  Gb  cstartup_M.o [4]
+__iar_scalbln64              0x13fd         Code  Gb  ldexp.o [3]
+__iar_scalbn64               0x13fd         Code  Gb  ldexp.o [3]
+__iar_sh_stdout              0x269b   0x20  Code  Gb  iarwstd.o [5]
+__iar_sh_write               0x261b   0x22  Code  Gb  iarwrite.o [5]
+__iar_softfp___iar_frexp64
+                             0x1325         Code  Gb  frexp.o [3]
+__iar_softfp_frexp           0x1325         Code  Gb  frexp.o [3]
+__iar_softfp_frexpl          0x1325         Code  Gb  frexp.o [3]
+__iar_ttio_handles      0x2000'0000    0x8  Data  Lc  XShttio.o [2]
+__iar_unaligned_memcpy       0x12ad         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcpy4
+                             0x12cd         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcpy8
+                             0x12cd         Code  Gb  ABImemcpy_unaligned.o [4]
+__low_level_init             0x26db    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
+__write                      0x266d   0x10  Code  Gb  write.o [5]
+_call_main                   0x26c9         Code  Gb  cmain.o [4]
+_exit                        0x26e5         Code  Gb  cexit.o [4]
+abort                        0x1e49    0x6  Code  Gb  abort.o [2]
+adc_value               0x2000'0024    0x4  Data  Gb  main.o [1]
+distance                0x2000'000c    0x4  Data  Gb  main.o [1]
+exit                         0x26df    0x4  Code  Gb  exit.o [2]
+ldexp                        0x13fd         Code  Gb  ldexp.o [3]
+ldexpl                       0x13fd         Code  Gb  ldexp.o [3]
+main                         0x21a5  0x10c  Code  Gb  main.o [1]
+memchr                       0x1255         Code  Gb  memchr.o [4]
+mesg                    0x2000'0010   0x14  Data  Gb  main.o [1]
+printf                       0x2139   0x28  Code  Gb  printf.o [2]
+printstring                  0x2043   0x18  Code  Gb  Ultrasonic.o [1]
+pui32Stack              0x2000'002c  0x400  Data  Lc  startup_ewarm.o [1]
+putchar                      0x264d   0x20  Code  Gb  putchar.o [2]
+scalbln                      0x13fd         Code  Gb  ldexp.o [3]
+scalblnl                     0x13fd         Code  Gb  ldexp.o [3]
+scalbn                       0x13fd         Code  Gb  ldexp.o [3]
+scalbnl                      0x13fd         Code  Gb  ldexp.o [3]
+scale                        0x1095   0x46  Code  Lc  xprintffull_nomb.o [2]
+sec_hand                0x2000'0028    0x4  Data  Lc  xfail_s.o [2]
+sprintf                      0x2591   0x40  Code  Gb  sprintf.o [2]
+strchr                       0x11bd         Code  Gb  strchr.o [4]
+strlen                       0x121d         Code  Gb  strlen.o [4]
+time                    0x2000'0008    0x4  Data  Gb  main.o [1]
+
+
+[1] = D:\Embedded Labs\Project WESS\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  9'396 bytes of readonly  code memory
+    732 bytes of readonly  data memory
+  1'068 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

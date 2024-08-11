@@ -1,0 +1,391 @@
+# ninja log v5
+1	67	7222171311072130	D:/Embedded Labs/Lab04.CSE211/Debug/BrowseInfo/main.pbi	d5fe173ae088d6b7
+1	60	7238222027465671	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Systick.pbi	f8c63fa84c46821e
+1	71	7252425388915790	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+133	229	7221852090000000	D:/Embedded Labs/Lab04.CSE211/Debug/BrowseInfo/main.xcl	83f380a3431fa0ae
+378	7676	7210504860000000	D:/Embedded Labs/Lab03.CSE211/Debug/BrowseInfo/main.xcl	c3a931249ee0ca4a
+0	68	7233950157238732	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/main.pbi	4651163e013433f
+1	7966	7210504860000000	D:/Embedded Labs/Lab03.CSE211/Debug/BrowseInfo/DIO.xcl	a612cdff341f57d9
+1	74	7226161728553045	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/Keypad.pbi	36717f51e3957cc7
+7679	8031	7210504869757664	D:/Embedded Labs/Lab03.CSE211/Debug/BrowseInfo/main.pbi	b31188468472d3b2
+2	130	7252514840000000	D:/Embedded Labs/Project/Debug/BrowseInfo/Bluetooth.xcl	2c5e0cbacdc52877
+1	32	7238238339437374	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/startup_ewarm.pbi	5854bc474e115b18
+94	1587	7238213820000000	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/LCD.xcl	947a8da9088e3b13
+1	73	7252098170000000	D:/Embedded Labs/Project/Debug/BrowseInfo/Ultrasonic.xcl	8efe0c02f3a572f6
+8039	8302	7210504872593679	D:/Embedded Labs/Lab03.CSE211/Debug/BrowseInfo/Lab03.CSE211.pbd	4c50efbd43320ba0
+254	7132	7232108130000000	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/LCD.xcl	12968fa9d27e5021
+7970	8037	7210504869949775	D:/Embedded Labs/Lab03.CSE211/Debug/BrowseInfo/DIO.pbi	dcec6b9f4a3f2cb6
+37	70	7238238339899701	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Lab4_part2.pbi	f8c5a4b889c4a917
+8304	10081	7210504890105588	D:/Embedded Labs/Lab03.CSE211/Debug/BrowseInfo/Lab03.CSE211.pbw	aa464104ab303d63
+282	7167	7232108130000000	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/main.xcl	6663f3e012e9c02d
+71	121	7222171311605152	D:/Embedded Labs/Lab04.CSE211/Debug/BrowseInfo/Lab4.pbd	33389abb35dfa772
+1	800	7222171373963492	D:/Embedded Labs/Lab04.CSE211/Debug/BrowseInfo/Lab4.pbw	ded556c4b950133b
+156	3036	7244240570000000	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Systick.xcl	2544ecedfd7a3b13
+0	332	7221852090000000	D:/Embedded Labs/Lab04.CSE211/Debug/BrowseInfo/DIO.xcl	4617b0ab893b8307
+0	70	7222167267384981	D:/Embedded Labs/Lab04.CSE211/Debug/BrowseInfo/DIO.pbi	99f8cf55e67f01d
+0	2043	7222077871182724	D:/Embedded Labs/Lab04.CSE211/Debug/BrowseInfo/Lab03.CSE211.pbd	de13cd00dd6ff995
+86	1597	7238213820000000	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Keypad.xcl	dc212f9de6fb52
+0	1519	7238213820000000	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/main.xcl	c63b255350a5c59a
+1	94	7226152400000000	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/DIO.xcl	416a416bed1c7e94
+18	117	7226152400000000	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/main.xcl	6e7a4046fcd7e23b
+0	33	7252129233737092	D:/Embedded Labs/Project/Debug/BrowseInfo/startup_ewarm.pbi	30c714c4a9555f8f
+97	160	7226152402693349	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/DIO.pbi	20f20c953a4f38e
+1	71	7226157675596980	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/main.pbi	ce2de84b82b461b1
+130	2995	7244240570000000	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/LCD.xcl	a28e0481c212b977
+101	1578	7238213820000000	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/DIO.xcl	293ea238d31eb969
+79	139	7226161729208685	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/Lab4.pbd	aed63ef2e58009f2
+0	958	7226161788481164	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/Lab4.pbw	4a84e00a1028bfee
+1	7197	7232108130000000	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/DIO.xcl	8ee6d843ae640f6c
+12	109	7226152400000000	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/LCD.xcl	a13c5782f8ddaf75
+6	101	7226152400000000	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/Keypad.xcl	fb78b89806cb3d9a
+138	697	7238246835154324	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Lab4.pbw	c2c40ecf8a46efa0
+1581	1653	7238213830994016	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/DIO.pbi	3d99d2aec451ced5
+113	143	7226152402495784	D:/Embedded Labs/Lab05.CSE211/Debug/BrowseInfo/LCD.pbi	5a5f53a227036c80
+226	6923	7232108130000000	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Keypad.xcl	458b83caa8fe834b
+87	135	7238246829722424	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Lab4.pbd	74e49e14c937ce07
+114	175	7233950158346632	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Lab4.pbd	b644637f34cd62f6
+7137	7267	7232108133624232	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/LCD.pbi	3de6acc50b203499
+0	94	7232157359126627	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Keypad.pbi	32a09003917d1174
+1602	1724	7238213831462831	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Keypad.pbi	40001e09b06228f2
+1	72	7232157978299711	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/DIO.pbi	878ff0bde75616f2
+179	913	7233950165585561	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Lab4.pbw	e49eaf06496f7cf2
+0	2915	7244240570000000	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/DIO.xcl	24ad28576ec4727b
+120	2816	7244240570000000	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Keypad.xcl	c9f012e17c0ab43d
+69	111	7233950157709194	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Lab4_part1.pbi	f831f3c3fc20b3c6
+167	227	7232161442598910	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Lab4_part0.pbi	c3b545db4047c00b
+1	598	7232161440000000	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Systick.xcl	89d0d20824daebda
+1727	1776	7238213832244008	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Lab4_part0.pbi	a86f6dc9359cf344
+21	94	7233949388234232	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Systick.pbi	fdd3f7fe3ebb6f2
+96	134	7233949388649775	D:/Embedded Labs/Lab06.CSE211/Debug/BrowseInfo/Lab4_part2.pbi	77d05e48f09c3608
+107	1608	7238213820000000	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Systick.xcl	c8447c6c0cd608ba
+1591	1622	7238213830681432	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/LCD.pbi	5098d8d4aa0a30ff
+143	2940	7244240570000000	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/main.xcl	40821eda2d6802a0
+1	55	7238246828938214	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/main.pbi	633be64d35fe0882
+57	84	7238246829249815	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/Lab4_part1.pbi	d0d553cd1c472465
+1	80	7238229730000000	D:/Embedded Labs/Lab07.CSE211/Debug/BrowseInfo/startup_ewarm.xcl	fd372437ff0ea6b0
+170	2962	7244240570000000	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/startup_ewarm.xcl	e95a914b067754ae
+2823	3080	7244240579276513	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Keypad.pbi	669871183b8f57f4
+1	64	7244282336783748	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/main.pbi	da6548d8a4790c26
+1	34	7244261467290878	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/startup_ewarm.pbi	8b0a79bf37306837
+79	574	7252089280000000	D:/Embedded Labs/Project/Debug/BrowseInfo/main.xcl	ff63a893216b5116
+3023	3120	7244240579639708	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/LCD.pbi	fb90e9913eadd84a
+2929	3251	7244240580306444	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/DIO.pbi	7cdd2620d869a7ee
+3066	3272	7244240580566970	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Systick.pbi	5d9741e2d0c5b7d4
+67	99	7244282337137049	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Lab4_part1.pbi	ac96e871b68e7050
+98	583	7252089280000000	D:/Embedded Labs/Project/Debug/BrowseInfo/Systick.xcl	74bc31bf85a01e35
+107	149	7244281865484842	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Lab4_part2.pbi	ead3bae14efc92a4
+11	58	7244260687101499	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Lab4_part0.pbi	d2bfc78e59b8e4e5
+0	53	7244282388848081	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Lab4.pbd	cb95a4fad820d5f3
+55	651	7244282394552513	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Lab4.pbw	3a317dd862e8d040
+1	285	7244264430000000	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Timer.xcl	a47e33756f541bb2
+0	105	7244281865034636	D:/Embedded Labs/Lab08.CSE211/Debug/BrowseInfo/Timer.pbi	60354f9e70993126
+86	512	7252089280000000	D:/Embedded Labs/Project/Debug/BrowseInfo/DIO.xcl	3a2db8440426f0e3
+92	556	7252089280000000	D:/Embedded Labs/Project/Debug/BrowseInfo/Timer.xcl	3ee075e3ee1a8edf
+73	565	7252089280000000	D:/Embedded Labs/Project/Debug/BrowseInfo/LCD.xcl	b830691818c29a7b
+1	593	7252089280000000	D:/Embedded Labs/Project/Debug/BrowseInfo/startup_ewarm.xcl	b911dc3476ec990e
+568	627	7252089288780556	D:/Embedded Labs/Project/Debug/BrowseInfo/LCD.pbi	2b697bb7a7f3ee74
+2	67	7252176113127716	D:/Embedded Labs/Project/Debug/BrowseInfo/DIO.pbi	bcdc3a78e8e83d8c
+559	788	7252089289125371	D:/Embedded Labs/Project/Debug/BrowseInfo/Timer.pbi	846b98b2f1c29e06
+1	98	7253101033188562	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+586	799	7252089289229074	D:/Embedded Labs/Project/Debug/BrowseInfo/Systick.pbi	2432bf76d1207dc7
+169	293	7253101035144452	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+93	150	7252515776476563	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part0.pbi	590c195408518c9b
+101	164	7253101033855056	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+62	106	7253057949813284	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part2.pbi	15a7067218a107b6
+263	1057	7253100425149939	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	80	7252218169306840	D:/Embedded Labs/Project/Debug/BrowseInfo/Ultrasonic.pbi	d3bbba6bb1797f0d
+2	319	7252311400000000	D:/Embedded Labs/Project/Debug/BrowseInfo/Smoke.xcl	7190fc871fa232be
+0	59	7253057949332774	D:/Embedded Labs/Project/Debug/BrowseInfo/Smoke.pbi	1dd646f46435b625
+1	324	7252370380000000	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.xcl	6b13ff5c4ec58214
+39	118	7252514848327930	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part3.pbi	4cc32b4714d93069
+1	105	7252452780000000	D:/Embedded Labs/Project/Debug/BrowseInfo/Laser.xcl	65e15cd9945f5382
+109	187	7252452784756264	D:/Embedded Labs/Project/Debug/BrowseInfo/Laser.pbi	cab9d0c92fad6413
+6	90	7252515775819561	D:/Embedded Labs/Project/Debug/BrowseInfo/Bluetooth.pbi	e283c72a3f520cdd
+1	815	7253101095780584	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	101	7253102513532987	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+103	167	7253102514204077	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+171	269	7253102515223582	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+274	1069	7253102522901900	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	92	7253103080498408	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+95	155	7253103081143479	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+159	258	7253103082157041	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+262	1105	7253103090340928	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	100	7253103495926275	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+103	176	7253103496693907	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+180	287	7253103497820112	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+293	1115	7253103505625495	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+2	131	7253103608539479	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+134	214	7253103609382766	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+217	326	7253103610487526	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+1	1073	7253103669432753	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	94	7253104128150966	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+96	162	7253104128847432	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+166	322	7253104130447811	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+327	1157	7253104138444827	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	106	7253105000052934	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+108	191	7253105000876791	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+195	300	7253105002019374	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+304	1168	7253105010286543	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	119	7253105163620468	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+121	184	7253105164293218	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+189	300	7253105165423960	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+304	1093	7253105173045088	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	105	7253105528662768	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+113	184	7253105529481187	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+191	303	7253105530651312	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+338	1232	7253105539636720	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	105	7253110852572200	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+109	173	7253110853233904	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+177	279	7253110854318831	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+284	1114	7253110862329030	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+3	119	7253125229399793	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+121	184	7253125230059733	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+187	279	7253125231009717	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+285	1072	7253125238653432	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+2	394	7253134948050716	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+396	800	7253134952112834	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+803	910	7253134953230309	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+922	2086	7253134964530372	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	114	7253138151054773	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+9	118	7253138151074809	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+120	191	7253138151833128	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+193	311	7253138153031216	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+1	802	7253138212374932	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+2	114	7253138617427203	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+117	193	7253138618211612	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+198	301	7253138619307461	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+306	1057	7253138626533828	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+2	97	7253138728749731	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+99	160	7253138729393957	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+165	256	7253138730357564	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+260	970	7253138737200514	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	96	7253142476061334	D:/Embedded Labs/Project/Debug/BrowseInfo/Ultrasonic.pbi	d3bbba6bb1797f0d
+99	163	7253142476750617	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part3.pbi	4cc32b4714d93069
+166	262	7253142477740668	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+267	981	7253142484616375	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	87	7253142536250346	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+89	153	7253142536923602	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+157	260	7253142537994423	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+265	970	7253142544807427	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+8	100	7253142747935691	D:/Embedded Labs/Project/Debug/BrowseInfo/Ultrasonic.pbi	d3bbba6bb1797f0d
+1	109	7253142747960929	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+103	168	7253142748637902	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part3.pbi	4cc32b4714d93069
+111	175	7253142748703138	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+180	277	7253142749732185	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+1	758	7253142813431407	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+11	100	7253146601545722	D:/Embedded Labs/Project/Debug/BrowseInfo/Ultrasonic.pbi	d3bbba6bb1797f0d
+3	108	7253146601555739	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+102	162	7253146602171792	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part3.pbi	4cc32b4714d93069
+111	174	7253146602287652	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+178	275	7253146603291176	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+279	982	7253146610091566	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	109	7253146813546823	D:/Embedded Labs/Project/Debug/BrowseInfo/Ultrasonic.pbi	d3bbba6bb1797f0d
+115	178	7253146814259974	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part3.pbi	4cc32b4714d93069
+181	290	7253146815383463	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+295	1113	7253146823314568	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+2	213	7253197306115943	D:/Embedded Labs/Project/Debug/BrowseInfo/Smoke.pbi	1dd646f46435b625
+218	266	7253197306646481	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part2.pbi	15a7067218a107b6
+273	334	7253197307335933	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+343	940	7253197313164907	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+0	64	7253197918815345	D:/Embedded Labs/Project/Debug/BrowseInfo/Smoke.pbi	1dd646f46435b625
+65	114	7253197919325351	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part2.pbi	15a7067218a107b6
+117	196	7253197920135364	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+200	675	7253197924695314	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	76	7253197976086432	D:/Embedded Labs/Project/Debug/BrowseInfo/Smoke.pbi	1dd646f46435b625
+84	123	7253197976566392	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part2.pbi	15a7067218a107b6
+125	181	7253197977146415	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+184	627	7253197981411416	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	58	7253198335257425	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+62	100	7253198335687591	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+104	160	7253198336276948	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+165	629	7253198340762503	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	60	7253198392023583	D:/Embedded Labs/Project/Debug/BrowseInfo/Smoke.pbi	1dd646f46435b625
+63	99	7253198392419489	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part2.pbi	15a7067218a107b6
+105	162	7253198393043307	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+165	634	7253198397531727	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	62	7253200564825039	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+65	106	7253200565291685	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+109	167	7253200565899033	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+169	651	7253200570507367	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	59	7253202334720582	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+64	102	7253202335150766	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+107	162	7253202335767738	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+165	637	7253202340268140	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+2	78	7253208790358925	D:/Embedded Labs/Project/Debug/BrowseInfo/Ultrasonic.pbi	d3bbba6bb1797f0d
+80	120	7253208790787252	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part3.pbi	4cc32b4714d93069
+125	183	7253208791424746	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+192	696	7253208796248108	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+0	56	7253208847574169	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+59	95	7253208847984354	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+99	154	7253208848570929	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+159	610	7253208852889815	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+0	55	7253209156003057	D:/Embedded Labs/Project/Debug/BrowseInfo/Magnetic.pbi	b25d23b56456e36a
+58	95	7253209156407880	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+100	158	7253209157041164	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+163	627	7253209161521145	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	55	7253209514953715	D:/Embedded Labs/Project/Debug/BrowseInfo/Smoke.pbi	1dd646f46435b625
+59	98	7253209515392053	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part2.pbi	15a7067218a107b6
+103	162	7253209516021917	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+166	644	7253209520242540	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	62	7253210529082493	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+74	114	7253210529619950	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+118	185	7253210530332992	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+193	645	7253210534723258	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+0	57	7253218697870334	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+62	101	7253218698317726	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+103	162	7253218698933632	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+166	619	7253218703280285	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	58	7253219711473749	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+64	102	7253219711923829	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+108	166	7253219712557069	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+171	640	7253219717103901	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	56	7253224420911950	D:/Embedded Labs/Project/Debug/BrowseInfo/Ultrasonic.pbi	d3bbba6bb1797f0d
+61	96	7253224421328208	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part3.pbi	4cc32b4714d93069
+101	155	7253224421914972	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+160	606	7253224426219394	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+0	66	7253268551180893	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+67	116	7253268551681224	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+118	185	7253268552399932	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+190	733	7253268557516132	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+1	81	7253269568659514	D:/Embedded Labs/Project/Debug/BrowseInfo/main.pbi	bdb811c40e1f97b4
+82	128	7253269569139240	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4_part1.pbi	ca5b5a45a5068b7b
+131	216	7253269570024631	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbd	db3117889092ca16
+220	829	7253269575823485	D:/Embedded Labs/Project/Debug/BrowseInfo/Lab4.pbw	d4404883fa7f85f
+290	500	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Laser.xcl	7284a77a69c0115f
+1	520	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/LCD.xcl	42990d39fc3658bc
+330	532	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Magnetic.xcl	71e7ae7043e0d6c8
+297	541	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/DIO.xcl	538cb7b4818323e0
+337	550	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Timer.xcl	6ac34a22712d420a
+325	560	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Bluetooth.xcl	fe065b1155dd5453
+346	576	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Smoke.xcl	8a710d9307fb70c2
+503	611	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.xcl	8ca899ab91d1ad51
+355	636	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/startup_ewarm.xcl	35b51bf08f1c0de4
+525	657	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Systick.xcl	1c09917450218d63
+535	678	7253269877572214	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/LCD.pbi	b7825da8d56307d7
+545	690	7253269878032261	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/DIO.pbi	715a7c38acd54ecc
+553	708	7253269878192218	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Laser.pbi	ce02f4e948044ee7
+564	733	7253269878342217	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Bluetooth.pbi	3ac76e4557c951d0
+599	756	7253269878622223	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Magnetic.pbi	ca237b09e9f0c7ff
+650	762	7253269870000000	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Ultrasonic.xcl	ea6bfca43aba1298
+628	777	7253269878942213	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+670	786	7253269879362210	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Systick.pbi	98b75eb8ac3c46f2
+683	790	7253269879482224	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Timer.pbi	b30add8b062b1ad2
+697	796	7253269879632203	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Smoke.pbi	1bd1d4d63123de0a
+721	800	7253269879562211	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/startup_ewarm.pbi	1df725d94c853d33
+747	813	7253269879962228	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part0.pbi	aee21e324583013e
+780	828	7253269880132390	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+770	842	7253269880252389	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Ultrasonic.pbi	d02c344471b7d537
+805	853	7253269880382203	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part2.pbi	2f6d1cc30da7d354
+844	887	7253269880723235	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part3.pbi	81dd9cb4e511a339
+889	954	7253269881395199	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+958	1496	7253269886574145	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	63	7253270292031884	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+65	106	7253270292467629	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+108	172	7253270293117358	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+175	696	7253270298114862	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+0	64	7253270854037471	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+68	113	7253270854536170	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+118	187	7253270855286227	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+193	727	7253270860322302	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+0	62	7253270911668271	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+66	105	7253270912100220	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+113	177	7253270912825727	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+183	705	7253270917866745	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+0	62	7253273442571162	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+63	112	7253273443075302	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+114	214	7253273444090907	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+1	519	7253273501034803	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	61	7253283699827847	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+63	104	7253283700254071	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+109	180	7253283700996490	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+1	557	7253283760141988	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	65	7253290725710934	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+67	110	7253290726162575	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+113	194	7253290727005344	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+201	740	7253290732146505	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	80	7253294873265778	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+82	132	7253294873814198	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+135	212	7253294874614805	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+216	782	7253294880072392	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	87	7253299324280154	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+89	150	7253299324958722	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+153	217	7253299325628644	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+220	749	7253299330630037	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	74	7253304990994294	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+76	119	7253304991465710	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+121	191	7253304992186316	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+194	719	7253304997220901	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	72	7253305805848426	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+73	115	7253305806290821	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+118	185	7253305806982492	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+188	735	7253305812137429	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	66	7253306671049162	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+69	123	7253306671635300	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+126	195	7253306672350668	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+1	550	7253306731420475	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	71	7259358874202510	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+73	120	7259358874705168	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+123	198	7259358875489452	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+204	755	7259358880779914	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	82	7259375686863108	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+86	137	7259375687431422	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+140	213	7259375688202117	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+217	961	7259375695296364	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	65	7259376656103363	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+67	107	7259376656530008	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+110	174	7259376657221256	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+176	841	7259376663586953	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	78	7259377573835792	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Bluetooth.pbi	3ac76e4557c951d0
+83	143	7259377574499828	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part0.pbi	aee21e324583013e
+145	216	7259377575228340	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+220	765	7259377580390206	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+6	66	7259377732496398	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Bluetooth.pbi	3ac76e4557c951d0
+1	72	7259377732496398	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/main.pbi	c02df1947db8b533
+73	119	7259377733065067	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part1.pbi	616454cd660abe4e
+68	124	7259377733105103	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part0.pbi	aee21e324583013e
+126	193	7259377733795982	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+196	752	7259377739020488	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	87	7259378043065872	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Smoke.pbi	1bd1d4d63123de0a
+89	141	7259378043626472	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part2.pbi	2f6d1cc30da7d354
+144	207	7259378044286822	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+214	754	7259378049514140	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	63	7259378453621554	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Smoke.pbi	1bd1d4d63123de0a
+65	106	7259378454060216	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part2.pbi	2f6d1cc30da7d354
+109	176	7259378454765050	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+179	843	7259378461112974	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+0	77	7259378663999480	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Bluetooth.pbi	3ac76e4557c951d0
+79	138	7259378664621945	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part0.pbi	aee21e324583013e
+142	210	7259378665342781	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+213	755	7259378670566184	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+1	76	7259380084057557	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Ultrasonic.pbi	d02c344471b7d537
+78	124	7259380084558174	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4_part3.pbi	81dd9cb4e511a339
+128	196	7259380085280944	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbd	28ad4a7cabd08b2d
+201	737	7259380090438566	D:/Embedded Labs/Project WESS/Debug/BrowseInfo/Lab4.pbw	5bcf5f5efe340c56
+2068	4567	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/LCD.xcl	d26b918b1a201b30
+2059	4576	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/DIO.xcl	e84ad0237b381831
+2095	4606	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/startup_ewarm.xcl	3e2f69a5030756f4
+2108	4661	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Systick.xcl	c5b5d012586105c3
+2089	4673	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Laser.xcl	8f4c7fcf510bb409
+1	4684	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Bluetooth.xcl	dba0fa1bb1a8e0b6
+2102	4693	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Magnetic.xcl	af395cc1cedceef5
+4570	4702	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Smoke.xcl	5428a62d6544017c
+2117	4712	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/main.xcl	92dc186d7957a5f8
+4579	4721	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Timer.xcl	7e5b0e9540d9b884
+4706	4754	7350564636374018	D:/Embedded Labs/Project Final/Debug/BrowseInfo/LCD.pbi	1d5cb9b1c2289805
+4666	4766	7350564630000000	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Ultrasonic.xcl	f687c8d9c4f8e1ab
+4609	4802	7350564636877016	D:/Embedded Labs/Project Final/Debug/BrowseInfo/DIO.pbi	10e3220621f28232
+4697	4814	7350564636937026	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Magnetic.pbi	1d683c3ae17b4f83
+4678	4821	7350564636907012	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Laser.pbi	714f47d4909c7e7f
+4689	4823	7350564637070264	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Bluetooth.pbi	c7706a4ebf9a2ce5
+4725	4864	7350564637100281	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Systick.pbi	32dcbac046fcd1fb
+4769	4866	7350564637121111	D:/Embedded Labs/Project Final/Debug/BrowseInfo/startup_ewarm.pbi	e7678caf5abf7892
+4716	4869	7350564637155657	D:/Embedded Labs/Project Final/Debug/BrowseInfo/main.pbi	5e08e2d66a7d5604
+4756	4876	7350564637503698	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Smoke.pbi	e0d9e9781cecee5c
+4804	4891	7350564637798136	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Ultrasonic.pbi	ec4cc6583ee7ab0c
+4815	4893	7350564637808148	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Timer.pbi	3028e24f051757f5
+4825	4923	7350564638128123	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Lab4_part0.pbi	153291cdf7fadef1
+4871	4926	7350564638158139	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Lab4_part1.pbi	56015eb3ea48c7d
+4879	4933	7350564638231266	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Lab4_part2.pbi	5d1242b2c6d05df1
+4895	4941	7350564638311227	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Lab4_part3.pbi	53906e79348ada92
+4944	5007	7350564638971718	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Lab4.pbd	5d9aaeb18ad1bd5f
+5010	5695	7350564645618067	D:/Embedded Labs/Project Final/Debug/BrowseInfo/Lab4.pbw	ec20a1df6bef05a8

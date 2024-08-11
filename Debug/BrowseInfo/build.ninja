@@ -1,0 +1,153 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = D$:\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++D$:\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = D$:\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++D$:\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = D$:\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++D$:\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = D$:\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++D$:\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\Bluetooth.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\Bluetooth.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\DIO.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\DIO.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\Laser.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\Laser.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\LCD.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\LCD.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\Magnetic.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\Magnetic.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\main.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\main.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\Smoke.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\Smoke.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\startup_ewarm.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\startup_ewarm.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\Systick.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\Systick.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\Timer.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\Timer.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded$ Labs\Project$ Final\Ultrasonic.c" -xcl_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.xcl" -macro_file "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.tmp" -icc_path D$:\arm\bin\iccarm.exe
+  flags = "D$:\Embedded$ Labs\Project$ Final\Ultrasonic.c" -o "D$:\Embedded$ Labs\Project$ Final\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -On --predef_macros "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.tmp"
+  rspfile_name = D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.xcl.rsp
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\Bluetooth.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\DIO.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\Laser.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\LCD.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\Magnetic.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\main.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\Smoke.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\startup_ewarm.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\Systick.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\Timer.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.pbi : INDEXER D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.xcl |  $
+D$:\Embedded$ Labs\Project$ Final\Ultrasonic.c
+  flags = "-out=D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.pbi" -f "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.xcl"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4.pbw : MAKEBROWSE D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4.pbd
+  flags = "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4.pbd" -output "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4.pbw"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part0.pbi : PDBLINK D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.pbi |  $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.pbi $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.pbi
+  flags = -M "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part0.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Bluetooth.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\DIO.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Laser.pbi"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part1.pbi : PDBLINK D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.pbi |  $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.pbi $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.pbi
+  flags = -M "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part1.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\LCD.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Magnetic.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\main.pbi"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part2.pbi : PDBLINK D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.pbi |  $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.pbi $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.pbi
+  flags = -M "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part2.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Smoke.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\startup_ewarm.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Systick.pbi"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part3.pbi : PDBLINK D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.pbi |  $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.pbi
+  flags = -M "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part3.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Timer.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Ultrasonic.pbi"
+
+build D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4.pbd : PDBLINK D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part0.pbi |  $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part1.pbi $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part2.pbi $
+D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part3.pbi
+  flags = -M "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4.pbd" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part0.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part1.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part2.pbi" "D$:\Embedded$ Labs\Project$ Final\Debug\BrowseInfo\Lab4_part3.pbi"
+

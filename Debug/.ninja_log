@@ -1,0 +1,116 @@
+# ninja log v5
+21	70	7252095445283912	D:/Embedded Labs/Project/Debug/Obj/LCD.o	f1887c6976aee97c
+1	179	7210507836267565	D:/Embedded Labs/Lab03.CSE211/Debug/Obj/DIO.o	4ce3c18db82999c4
+1	1853	7210515560833787	D:/Embedded Labs/Lab03.CSE211/Debug/Obj/main.o	65ed3f79d4217ad2
+0	3344	7226072617913743	D:/Embedded Labs/Lab04.CSE211/Debug/Obj/main.o	f9e78d2e5be398ae
+1	2067	7210515598995079	D:/Embedded Labs/Lab03.CSE211/Debug/Exe/Lab03.CSE211.out	d7e0ef749e22d912
+10	113	7238229712165354	D:/Embedded Labs/Lab07.CSE211/Debug/Obj/DIO.o	495d92939750038
+1	108	7222168238671028	D:/Embedded Labs/Lab04.CSE211/Debug/Obj/DIO.o	bd6c30a4b1e202b7
+8	109	7244282023379916	D:/Embedded Labs/Lab08.CSE211/Debug/Obj/Timer.o	a06b5ec96320c10f
+26	90	7238229711898566	D:/Embedded Labs/Lab07.CSE211/Debug/Obj/LCD.o	e92ece04565f20db
+1	1156	7226072642763908	D:/Embedded Labs/Lab04.CSE211/Debug/Exe/Lab4.out	8e198d291a5d31
+33	134	7226152359042154	D:/Embedded Labs/Lab05.CSE211/Debug/Obj/DIO.o	bbfb01cbbced03fd
+47	189	7244259963138269	D:/Embedded Labs/Lab08.CSE211/Debug/Obj/Systick.o	4df3823bfa1c1307
+0	179	7226157674324037	D:/Embedded Labs/Lab05.CSE211/Debug/Obj/main.o	d565bee218bdca2d
+1	72	7226152358517022	D:/Embedded Labs/Lab05.CSE211/Debug/Obj/LCD.o	7966a7f14bfe68d6
+7	89	7253210084870784	D:/Embedded Labs/Project/Debug/Obj/Magnetic.o	b31bbb85e2b02d4d
+0	235	7226161713979342	D:/Embedded Labs/Lab05.CSE211/Debug/Obj/Keypad.o	f7130a8719a3ca18
+1	79	7226161731948400	D:/Embedded Labs/Lab05.CSE211/Debug/Exe/Lab4.out	fc0ce484291e4cab
+1	1149	7232159030627204	D:/Embedded Labs/Lab06.CSE211/Debug/Obj/DIO.o	fea9197f898592aa
+1	48	7253218688074639	D:/Embedded Labs/Project/Debug/Exe/Lab4.out	7f6b73c229ef4e
+387	1143	7232155519638601	D:/Embedded Labs/Lab06.CSE211/Debug/Obj/LCD.o	7b676f7a1eefa16e
+361	1153	7232159030627204	D:/Embedded Labs/Lab06.CSE211/Debug/Obj/Keypad.o	be77a3e596bdca2f
+39	145	7252095445970121	D:/Embedded Labs/Project/Debug/Obj/Systick.o	fecaf3e3d771d37c
+140	186	7238246827992270	D:/Embedded Labs/Lab07.CSE211/Debug/Exe/Lab4.out	441801d8030c0fb9
+0	449	7233952539214937	D:/Embedded Labs/Lab06.CSE211/Debug/Obj/main.o	71fb07817c718833
+337	714	7233949344300479	D:/Embedded Labs/Lab06.CSE211/Debug/Obj/Systick.o	f7c3a40ac4f3c93
+1	143	7233952550684899	D:/Embedded Labs/Lab06.CSE211/Debug/Exe/Lab4.out	8c8b778cdc160017
+0	185	7253209529172481	D:/Embedded Labs/Project/Debug/Obj/Smoke.o	f0ce14b85d09816c
+1	55	7238238337983375	D:/Embedded Labs/Lab07.CSE211/Debug/Obj/startup_ewarm.o	f4acb8ade365f659
+1	137	7238246827363295	D:/Embedded Labs/Lab07.CSE211/Debug/Obj/main.o	bc8a7ac80b5a5bbf
+0	132	7253218679536382	D:/Embedded Labs/Project/Debug/Obj/main.o	f9de4139e7b35dc5
+34	149	7238229712529833	D:/Embedded Labs/Lab07.CSE211/Debug/Obj/Systick.o	42e392f62530ca2b
+20	161	7238229712619905	D:/Embedded Labs/Lab07.CSE211/Debug/Obj/Keypad.o	3d735328dc65ec3f
+25	100	7244259962297772	D:/Embedded Labs/Lab08.CSE211/Debug/Obj/LCD.o	a9e191963ea326eb
+1	197	7252176229867462	D:/Embedded Labs/Project/Debug/Obj/DIO.o	116b2c3615d63806
+11	154	7244259962840098	D:/Embedded Labs/Lab08.CSE211/Debug/Obj/Keypad.o	4a828980c389971b
+35	178	7244259963092686	D:/Embedded Labs/Lab08.CSE211/Debug/Obj/DIO.o	514b3847c55424c8
+46	141	7252095445970121	D:/Embedded Labs/Project/Debug/Obj/Timer.o	3f2587c18887f7d6
+0	180	7244288743244748	D:/Embedded Labs/Lab08.CSE211/Debug/Obj/main.o	918781118176a1b6
+1	169	7253214604676516	D:/Embedded Labs/Project/Debug/Obj/Ultrasonic.o	44916ecba7ae0c22
+1	53	7244261473999764	D:/Embedded Labs/Lab08.CSE211/Debug/Obj/startup_ewarm.o	ca25813ec939bdd0
+1	46	7244288754387124	D:/Embedded Labs/Lab08.CSE211/Debug/Exe/Lab4.out	28e76c41a1b84e03
+0	156	7252525491255513	D:/Embedded Labs/Project/Debug/Obj/Bluetooth.o	501bd5d5c314015a
+0	101	7252129206664099	D:/Embedded Labs/Project/Debug/Obj/startup_ewarm.o	d9e01e1114b65c96
+1	111	7252452756216248	D:/Embedded Labs/Project/Debug/Obj/Laser.o	971e7353e62b8067
+1	84	7253219695038944	D:/Embedded Labs/Project/Debug/Obj/main.o	f9de4139e7b35dc5
+1	47	7253219705332946	D:/Embedded Labs/Project/Debug/Exe/Lab4.out	7f6b73c229ef4e
+0	131	7253224379220498	D:/Embedded Labs/Project/Debug/Obj/Ultrasonic.o	44916ecba7ae0c22
+0	47	7253224396362219	D:/Embedded Labs/Project/Debug/Exe/Lab4.out	7f6b73c229ef4e
+0	140	7253228007601585	D:/Embedded Labs/Project/Debug/Obj/main.o	f9de4139e7b35dc5
+1	47	7253228019194420	D:/Embedded Labs/Project/Debug/Exe/Lab4.out	7f6b73c229ef4e
+1	145	7253231966358115	D:/Embedded Labs/Project/Debug/Obj/main.o	f9de4139e7b35dc5
+1	61	7253231977738593	D:/Embedded Labs/Project/Debug/Exe/Lab4.out	7f6b73c229ef4e
+0	159	7253236553520248	D:/Embedded Labs/Project/Debug/Obj/main.o	f9de4139e7b35dc5
+1	51	7253236561272235	D:/Embedded Labs/Project/Debug/Exe/Lab4.out	7f6b73c229ef4e
+0	187	7253263802120469	D:/Embedded Labs/Project/Debug/Obj/main.o	f9de4139e7b35dc5
+1	59	7253263812438961	D:/Embedded Labs/Project/Debug/Exe/Lab4.out	7f6b73c229ef4e
+0	143	7253268543147850	D:/Embedded Labs/Project/Debug/Obj/main.o	f9de4139e7b35dc5
+1	53	7253268712007530	D:/Embedded Labs/Project/Debug/Exe/Lab4.out	7f6b73c229ef4e
+0	91	7253270196784532	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+3	137	7253270206108547	D:/Embedded Labs/Project WESS/Debug/Obj/LCD.o	6e21e7009a9fb9f3
+27	198	7253270206688399	D:/Embedded Labs/Project WESS/Debug/Obj/Laser.o	1c65da1cbcabe1b
+69	241	7253270206965744	D:/Embedded Labs/Project WESS/Debug/Obj/startup_ewarm.o	b80d484d5bdfa198
+41	249	7253270206975753	D:/Embedded Labs/Project WESS/Debug/Obj/Bluetooth.o	368c7d018e5f6591
+14	259	7253270207062459	D:/Embedded Labs/Project WESS/Debug/Obj/DIO.o	f1c588d950344024
+86	272	7253270207178559	D:/Embedded Labs/Project WESS/Debug/Obj/Timer.o	d035135742469e4d
+100	281	7253270207418836	D:/Embedded Labs/Project WESS/Debug/Obj/Smoke.o	f4690f8289ccf451
+54	288	7253270207344919	D:/Embedded Labs/Project WESS/Debug/Obj/Systick.o	df7ac4e194f6c030
+164	327	7253270207980158	D:/Embedded Labs/Project WESS/Debug/Obj/Magnetic.o	190b59f195eea62d
+220	365	7253270208390151	D:/Embedded Labs/Project WESS/Debug/Obj/Ultrasonic.o	9321b129265638f2
+371	427	7253270209018191	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	83	7253270901340629	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	61	7253270909906789	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	151	7253273437536983	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	51	7253273446331153	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	165	7253277521575586	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	56	7253277529482439	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	90	7253278805200500	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	55	7253278813319092	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	172	7253281191198518	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	69	7253281199449584	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	90	7253283697145006	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+93	147	7253283697725126	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	189	7253287924227099	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	63	7253287931645312	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	102	7253290394670253	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	54	7253290403123593	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	84	7253290712637547	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	50	7253290721291127	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	156	7253293899498607	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	64	7253293911011458	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	88	7253294814912888	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	58	7253294823164329	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	186	7253297820009497	D:/Embedded Labs/Project WESS/Debug/Obj/Magnetic.o	190b59f195eea62d
+0	66	7253297828931946	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	114	7253299736171615	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+117	169	7253299736765814	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	150	7253304956040119	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+157	204	7253304956594283	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	94	7253305771126716	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+98	155	7253305771745371	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	85	7253306664548400	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	70	7253306668665428	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	159	7253308070697961	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	62	7253308077863302	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	121	7259372596614994	D:/Embedded Labs/Project WESS/Debug/Obj/Bluetooth.o	368c7d018e5f6591
+1	102	7259372605740822	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+108	182	7259372606583059	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	100	7259378469396763	D:/Embedded Labs/Project WESS/Debug/Obj/Smoke.o	f4690f8289ccf451
+1	133	7259378494410651	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+0	87	7259378621813284	D:/Embedded Labs/Project WESS/Debug/Obj/Bluetooth.o	368c7d018e5f6591
+3	73	7259378629091088	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+0	186	7259380073678384	D:/Embedded Labs/Project WESS/Debug/Obj/Ultrasonic.o	9321b129265638f2
+0	56	7259380082362470	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
+1	103	7259380311920336	D:/Embedded Labs/Project WESS/Debug/Obj/main.o	15c3f2116a74a65
+1	57	7259380320477056	D:/Embedded Labs/Project WESS/Debug/Exe/Lab4.out	daa0a50c089e0c36
